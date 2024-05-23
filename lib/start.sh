@@ -1,5 +1,5 @@
 while true
 do
-echo "Starting Gifted-Md!"
+echo "Starting Virusi-Md!"
 node .
 done
