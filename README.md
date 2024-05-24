@@ -30,7 +30,7 @@
 ## Virusi-Mbaya-Md Deployment Methods
 ---
 1.  **Fork, [`CLICK HERE`](https://github.com/Vurusian/Virusi-Mbaya-Md/fork) and `Star ⭐ Repository` for Courage.**
-2.  **Get `SESSION ID` BY [`PAIRING CODE`](#)**
+2.  **Get `SESSION ID` BY [`PAIRING CODE`](https://virusi-2615bdac6a00.herokuapp.com/pair)**
 3. **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md)**
 ##
 ---
