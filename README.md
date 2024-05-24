@@ -10,7 +10,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/Vurusian/Virusi-Mbaya-Md"><b>Feploy 🦠Virusi Mbaya Md</b></a> On...
+  <a href="https://github.com/Vurusian/Virusi-Mbaya-Md"><b>Deploy 🦠Virusi Mbaya Md</b></a> On...
 </p>
 
 <p align="center">
