@@ -1,16 +1,16 @@
-<h1 align="center"> VIRUSI-MBAYA-MD VERSION 1.0.0  </h1>
+<h1 align="center"> 🦠VIRUSI-MBAYA-MD VERSION 1.0.0  </h1>
 <p align="center">  
 
 ***
- <a aria-label="Virusi-Mbaya-Md is free to use" href="https://github.com/Vurusian/Virusi-Mbaya-Md" target="_blank">
+ <a aria-label="🦠Virusi-Mbaya-Md is free to use" href="https://github.com/Vurusian/Virusi-Mbaya-Md" target="_blank">
 
 </p>
-<p align="center"><img src="https://profile-counter.glitch.me/{Vurusian}/count.svg" alt="Virusi-Mbaya-Md :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{Vurusian}/count.svg" alt="🦠Virusi-Mbaya-Md :: Visitor's Count" /></p>
 
 ---
 
 <p align="center">
-  <a href="https://github.com/Vurusian/Virusi-Mbaya-Md"><b>Beploy Virusi Mbaya Md</b></a> On...
+  <a href="https://github.com/Vurusian/Virusi-Mbaya-Md"><b>Feploy 🦠Virusi Mbaya Md</b></a> On...
 </p>
 
 <p align="center">
@@ -20,14 +20,14 @@
 
 ---
 
- <h3>Virusi-Mbaya-Md Stats</h3>
+ <h3>🦠Virusi-Mbaya-Md Stats</h3>
 
 ![Virusi Stats](https://github-readme-stats.vercel.app/api/pin/?username=Vurusian&repo=Virusi-Mbaya-Md&show_owner=true&theme=dark)
 
 
     
    
-## Virusi-Mbaya-Md Deployment Methods
+## 🦠Virusi-Mbaya-Md Deployment Methods
 ---
 1.  **Fork, [`CLICK HERE`](https://github.com/Vurusian/Virusi-Mbaya-Md/fork) and `Star ⭐ Repository` for Courage.**
 2.  **Get `SESSION ID` BY [`PAIRING CODE`](https://virusi-2615bdac6a00.herokuapp.com/pair)**
