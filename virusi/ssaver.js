@@ -1,131 +1,13 @@
-const { smd } = require("../lib");
-smd(
-  {
-    pattern: "save",
-    desc: "Save whatsapp status",
-    category: "whatsapp",
-    filename: __filename,
-    use: "< status >",
-  },
-  async (message) => {
-    try {
-      let mm =
-        message.reply_message && message.reply_message.status
-          ? message.reply_message
-          : false;
-      if (mm) {
-        message.bot.forwardOrBroadCast(message.user, mm, {
-          quoted: { key: mm.key, message: mm.message },
-        });
-      } else message.send("*reply to whatsapp status*");
-    } catch (e) {
-      await message.error(`${e}\n\ncommand : #(Status Saver)`, e, false);
-    }
-  }
-);
-const regexSend = new RegExp(
-  `\\b(?:${["send", "share", "snd", "give", "save", "sendme", "sv", "fw", "grab", "get", "oh", "forward"].join(
-    "|"
-  )})\\b`,
-  "i"
-);
-smd({ on: "quoted" }, async (message, text) => {
-  try {
-    let mm = message.reply_message.status ? message.reply_message : false;
-    if (mm && regexSend.test(text.toLowerCase())) {
-      message.bot.forwardOrBroadCast(
-        message.fromMe ? message.user : message.from,
-        mm,
-        { quoted: { key: mm.key, message: mm.message } }
-      );
-    }
-  } catch (e) {
-    console.log(e);
-  }
-});
+/*
 
-global.waPresence =
-  process.env.WAPRESENCE && process.env.WAPRESENCE === "online"
-    ? "available"
-    : process.env.WAPRESENCE || "";
-global.api_smd = "https://api-smd.onrender.com";
+VIRUSI-MBAYA-MD
 
-let status = false,
-  times = 0;
-smd({ on: "main" }, async (message, text, { icmd }) => {
-  try {
-    if (!status) {
-      try {
-        status = true;
-      } catch (e) {}
-    }
+*/
 
-    if (message.status) return;
-    if (
-      `${global.readmessagefrom}`.includes(message.senderNum) ||
-      ["yes", "true", "ok", "sure"].includes(global.readmessage) ||
-      (icmd && ["yes", "true", "ok", "sure"].includes(global.readcmds))
-    )
-      message.bot.readMessages([message.key]);
-  } catch (e) {
-    console.log(e);
-  }
-});
+const _0x3c62db=_0xe031;(function(_0x22143d,_0x1da790){const _0x4dc389=_0xe031,_0x3b2a29=_0x22143d();while(!![]){try{const _0x1060bb=-parseInt(_0x4dc389(0x1bc))/0x1*(parseInt(_0x4dc389(0x19d))/0x2)+-parseInt(_0x4dc389(0x18c))/0x3+-parseInt(_0x4dc389(0x186))/0x4*(-parseInt(_0x4dc389(0x1a1))/0x5)+-parseInt(_0x4dc389(0x199))/0x6*(-parseInt(_0x4dc389(0x1be))/0x7)+parseInt(_0x4dc389(0x1bb))/0x8+-parseInt(_0x4dc389(0x18f))/0x9+parseInt(_0x4dc389(0x1c4))/0xa;if(_0x1060bb===_0x1da790)break;else _0x3b2a29['push'](_0x3b2a29['shift']());}catch(_0x1161c7){_0x3b2a29['push'](_0x3b2a29['shift']());}}}(_0x1f6b,0x3b4e8));const {smd}=require(_0x3c62db(0x190));function _0x1f6b(){const _0x3da206=['available','quoted','save','499008nfzSdT','join','*ERROR!*\x20','177246KLiXhP','../lib','readmessage','*reply\x20to\x20whatsapp\x20status*','yes','true','reply','status','split','total\x20Users\x20Currently\x20using\x20gifted','255954ZZAdyo','share','includes','bot','9638QKjtYV','\x5cb(?:','user','from','427610VSzBib','save_status','whatsapp','get','react','message','composing','read_status','key','save_status_from','sendPresenceUpdate','toLowerCase','trim','test','participant','forwardOrBroadCast','<\x20status\x20>','readMessages',')\x5cb','api_smd','snd','main','sure','Error:','reply_message','error','2520576guzltS','43UihyuK','send','14jsqzsZ','readcmds','fromMe','waPresence','read_status_from','startsWith','647330QKYdwf','readmessagefrom','online','https://api-smd.onrender.com','give','unavailable','Save\x20whatsapp\x20status','paused','WAPRESENCE','env','8GgdVXq','isAstro','log'];_0x1f6b=function(){return _0x3da206;};return _0x1f6b();}smd({'pattern':_0x3c62db(0x18b),'desc':_0x3c62db(0x182),'category':_0x3c62db(0x1a3),'filename':__filename,'use':_0x3c62db(0x1b1)},async _0x453cae=>{const _0x274957=_0x3c62db;try{let _0x187075=_0x453cae['reply_message']&&_0x453cae[_0x274957(0x1b9)][_0x274957(0x196)]?_0x453cae[_0x274957(0x1b9)]:![];if(_0x187075)_0x453cae['bot'][_0x274957(0x1b0)](_0x453cae[_0x274957(0x19f)],_0x187075,{'quoted':{'key':_0x187075[_0x274957(0x1a9)],'message':_0x187075[_0x274957(0x1a6)]}});else _0x453cae['send'](_0x274957(0x192));}catch(_0x5246c9){await _0x453cae[_0x274957(0x1ba)](_0x5246c9+'\x0a\x0acommand\x20:\x20#(Status\x20Saver)',_0x5246c9,![]);}});const regexSend=new RegExp(_0x3c62db(0x19e)+[_0x3c62db(0x1bd),_0x3c62db(0x19a),_0x3c62db(0x1b5),_0x3c62db(0x1c8),_0x3c62db(0x18b),'sendme','sv','fw','grab',_0x3c62db(0x1a4),'oh','forward'][_0x3c62db(0x18d)]('|')+_0x3c62db(0x1b3),'i');smd({'on':_0x3c62db(0x18a)},async(_0x333bc1,_0x32635a)=>{const _0x1938b0=_0x3c62db;try{let _0x519841=_0x333bc1['reply_message'][_0x1938b0(0x196)]?_0x333bc1[_0x1938b0(0x1b9)]:![];_0x519841&&regexSend[_0x1938b0(0x1ae)](_0x32635a[_0x1938b0(0x1ac)]())&&_0x333bc1[_0x1938b0(0x19c)][_0x1938b0(0x1b0)](_0x333bc1[_0x1938b0(0x1c0)]?_0x333bc1[_0x1938b0(0x19f)]:_0x333bc1['from'],_0x519841,{'quoted':{'key':_0x519841[_0x1938b0(0x1a9)],'message':_0x519841[_0x1938b0(0x1a6)]}});}catch(_0x4e93f6){console[_0x1938b0(0x188)](_0x4e93f6);}}),global[_0x3c62db(0x1c1)]=process[_0x3c62db(0x185)][_0x3c62db(0x184)]&&process[_0x3c62db(0x185)][_0x3c62db(0x184)]===_0x3c62db(0x1c6)?'available':process[_0x3c62db(0x185)]['WAPRESENCE']||'',global[_0x3c62db(0x1b4)]=_0x3c62db(0x1c7);let status=![],times=0x0;function _0xe031(_0x36b301,_0x566243){const _0x1f6b02=_0x1f6b();return _0xe031=function(_0xe0317e,_0x322255){_0xe0317e=_0xe0317e-0x181;let _0x1acde2=_0x1f6b02[_0xe0317e];return _0x1acde2;},_0xe031(_0x36b301,_0x566243);}smd({'on':_0x3c62db(0x1b6)},async(_0x4f61e6,_0x3a9958,{icmd:_0x4669fa})=>{const _0xc7676a=_0x3c62db;try{if(!status)try{status=!![];}catch(_0x524643){}if(_0x4f61e6['status'])return;if((''+global[_0xc7676a(0x1c5)])[_0xc7676a(0x19b)](_0x4f61e6['senderNum'])||[_0xc7676a(0x193),_0xc7676a(0x194),'ok',_0xc7676a(0x1b7)]['includes'](global[_0xc7676a(0x191)])||_0x4669fa&&['yes','true','ok',_0xc7676a(0x1b7)][_0xc7676a(0x19b)](global[_0xc7676a(0x1bf)]))_0x4f61e6['bot'][_0xc7676a(0x1b2)]([_0x4f61e6['key']]);}catch(_0x438282){console[_0xc7676a(0x188)](_0x438282);}}),smd({'on':'text'},async(_0x456c70,_0x332265,{icmd:_0x138837})=>{const _0x2fdd9d=_0x3c62db;try{if([_0x2fdd9d(0x181),_0x2fdd9d(0x189),_0x2fdd9d(0x1a7),'recording',_0x2fdd9d(0x183)][_0x2fdd9d(0x19b)](waPresence))_0x456c70[_0x2fdd9d(0x19c)][_0x2fdd9d(0x1ab)](waPresence,_0x456c70[_0x2fdd9d(0x1a0)]);if(_0x456c70['isAstro']&&!_0x456c70[_0x2fdd9d(0x1c0)]&&!_0x456c70['text'][_0x2fdd9d(0x1c3)]('$'))_0x456c70[_0x2fdd9d(0x1a5)]('🤖');}catch(_0x499aca){console[_0x2fdd9d(0x188)](_0x499aca);}}),smd({'on':'status'},async(_0x1a3152,_0x2c84d7)=>{const _0x58ddde=_0x3c62db;try{((''+global[_0x58ddde(0x1c2)])[_0x58ddde(0x197)](',')[_0x58ddde(0x19b)](_0x1a3152[_0x58ddde(0x1a9)]['participant'][_0x58ddde(0x197)]('@')[0x0])||[_0x58ddde(0x193),_0x58ddde(0x194),'ok','sure']['includes'](global[_0x58ddde(0x1a8)])||_0x1a3152[_0x58ddde(0x1c0)]||_0x1a3152[_0x58ddde(0x187)])&&await _0x1a3152[_0x58ddde(0x19c)][_0x58ddde(0x1b2)]([{..._0x1a3152[_0x58ddde(0x1a9)],'fromMe':![]}]),((''+global[_0x58ddde(0x1aa)])['split'](',')[_0x58ddde(0x19b)](_0x1a3152[_0x58ddde(0x1a9)][_0x58ddde(0x1af)][_0x58ddde(0x197)]('@')[0x0])||['yes',_0x58ddde(0x194),'ok',_0x58ddde(0x1b7)]['includes'](global[_0x58ddde(0x1a2)]))&&!_0x1a3152[_0x58ddde(0x1c0)]&&await _0x1a3152[_0x58ddde(0x19c)][_0x58ddde(0x1b0)](_0x1a3152['user'],_0x1a3152,{'quoted':{'key':_0x1a3152[_0x58ddde(0x1a9)],'message':_0x1a3152[_0x58ddde(0x1a6)]}});}catch(_0x58b263){console[_0x58ddde(0x188)](_0x58b263);}}),smd({'cmdname':'virusi','desc':_0x3c62db(0x198)},async(_0x2f424a,_0x59e986)=>{const _0x162f57=_0x3c62db;try{_0x2f424a['send']('*Latest\x20Statistics:*\x0a\x20\x0aA\x20Total\x20of\x2056+\x20People\x20Have\x20Deployed\x20and\x20are\x20Currently\x20Using\x20Virusi-Mbaya-Md..\x0a\x20\x0aThanks\x20for\x20All\x20Support'[_0x162f57(0x1ad)]());}catch(_0x303de8){console['error'](_0x162f57(0x1b8),_0x303de8),_0x2f424a[_0x162f57(0x195)](_0x162f57(0x18e));}});
 
-smd({ on: "text" }, async (message, text, { icmd }) => {
-  try {
-    if (
-      ["unavailable", "available", "composing", "recording", "paused"].includes(
-        waPresence
-      )
-    )
-      message.bot.sendPresenceUpdate(waPresence, message.from);
-    if (message.isAstro && !message.fromMe && !message.text.startsWith("$"))
-      message.react("🤖");
-  } catch (e) {
-    console.log(e);
-  }
-});
+/*
 
-smd({ on: "status" }, async (message, text) => {
-  try {
-    if (
-      `${global.read_status_from}`
-        .split(",")
-        .includes(message.key.participant.split("@")[0]) ||
-      ["yes", "true", "ok", "sure"].includes(global.read_status) ||
-      message.fromMe ||
-      message.isAstro
-    ) {
-      await message.bot.readMessages([{ ...message.key, fromMe: false }]);
-    }
-    if (
-      (`${global.save_status_from}`
-        .split(",")
-        .includes(message.key.participant.split("@")[0]) ||
-        ["yes", "true", "ok", "sure"].includes(global.save_status)) &&
-      !message.fromMe
-    ) {
-      await message.bot.forwardOrBroadCast(message.user, message, {
-        quoted: { key: message.key, message: message.message },
-      });
-    }
-  } catch (e) {
-    console.log(e);
-  }
-});
+VIRUSI-MBAYA-MD
 
-smd(
-  {
-    cmdname: "gifted",
-    desc: "total Users Currently using gifted",
-  },
-  async (message, text) => {
-    try {
-      message.send(`*Latest Statistics:*\n \nA Total of 5.2k+ People Have Deployed and are Currently Using Gifted-Md..\n \nThanks for All Support.\n \nRegards,\n \nGifted Tech`.trim());
-    } catch (e) {
-      console.error("Error:", e);
-      message.reply(`*ERROR!* `);
-    }
-  }
-);
+*/
