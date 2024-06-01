@@ -38,7 +38,8 @@
 
 - Star ⭐ repo if you like this bot.
 - If any problem, then [`Whatsapp Me Here`](https://wa.me/254748721079)
-Join Whatsapp Group(https://chat.whatsapp.com/COg2nx5VSGv6fihMWm9Zsp)
----
+  
+Join Whatsapp Group https://chat.whatsapp.com/Gkaa5BXfTc95a5DqeRjlmm
+_____________________
 ### Credits to:
 - [Bro Gifted](https://github.com/mouricedevs)
