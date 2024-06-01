@@ -1,4 +1,4 @@
-<h1 align="center"> 🦠VIRUSI-MBAYA-MD VERSION 1.0.0  </h1>
+<h1 align="center"> 🦠VIRUSI-MBAYA-MD VERSION 1.5.0  </h1>
 <p align="center">  
 
 ***
@@ -39,7 +39,7 @@
 - Star ⭐ repo if you like this bot.
 - If any problem, then [`Whatsapp Me Here`](https://wa.me/254748721079)
   
-Join Whatsapp Group (https://chat.whatsapp.com/Gkaa5BXfTc95a5DqeRjlmm)
+Join Whatsapp Group -(https://chat.whatsapp.com/Gkaa5BXfTc95a5DqeRjlmm)-
 _____________________
 ### Credits to:
 - [Bro Gifted](https://github.com/mouricedevs)
