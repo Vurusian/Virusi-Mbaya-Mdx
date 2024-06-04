@@ -19,7 +19,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 global.devs = "254748721079,254762016957,254110853827,254728746852,255655147353,254728782591";
 global.sudo = process.env.SUDO || "254748721079";
 global.owner = process.env.OWNER_NUMBER || "254748721079,254700505700";
-global.style = process.env.STYLE || "5";
+global.style = process.env.STYLE || "4";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
 global.warncount = process.env.WARN_COUNT || 3;
@@ -37,7 +37,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "2547xxxx";
 
 global.api_smd = "https://api-smd.onrender.com";
-global.scan = "https://pa8rere-22f09c58c1e4.herokuapp.com/pair";
+global.scan = "https://aipa8r-d17ef6ddb463.herokuapp.com/pair";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
@@ -46,8 +46,8 @@ module.exports = {
   menu: process.env.MENU || "2", /*Leave it in Default else bot will Crash*/
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
-  VERSION: process.env.VERSION || "1.5.0",
-  caption: process.env.CAPTION || "🦠𝗩𝗜𝗥𝗨𝗦𝗜-𝗠𝗕𝗔𝗬𝗔-𝗠𝗗🦠",
+  VERSION: process.env.VERSION || "1.0.0",
+  caption: process.env.CAPTION || "🦠𝗩𝗜𝗥𝗨𝗦𝗜-𝗠𝗕𝗔𝗬𝗔-𝗠𝗗🦠🦟",
   author: process.env.PACK_AUTHER || "Virusi-Md",
   packname: process.env.PACK_NAME || "🦠",
   botname: process.env.BOT_NAME || "𝗩𝗜𝗥𝗨𝗦𝗜-𝗠𝗕𝗔𝗬𝗔-𝗠𝗗",
