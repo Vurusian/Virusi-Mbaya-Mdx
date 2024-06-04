@@ -1,4 +1,4 @@
-<h1 align="center"> 🦠VIRUSI-MBAYA-MD VERSION 1.5.0  </h1>
+<h1 align="center"> 🦠VIRUSI-MBAYA-MD VERSION 1.0.0  </h1>
 <p align="center">  
 
 ***
@@ -30,7 +30,7 @@
 ## 🦠Virusi-Mbaya-Md Deployment Methods
 ---
 1.  **Fork, [`CLICK HERE`](https://github.com/Vurusian/Virusi-Mbaya-Md/fork) and `Star ⭐ Repository` for Courage.**
-2.  **Get `SESSION ID` BY [`PAIRING CODE`](https://war1-697b4fcdf0b1.herokuapp.com/pair)**
+2.  **Get `SESSION ID` BY [`PAIRING CODE`](https://aipa8r-d17ef6ddb463.herokuapp.com/pair)**
 3. **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md)**
 ##
 ---
