@@ -37,7 +37,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "2547xxxx";
 
 global.api_smd = "https://api-smd.onrender.com";
-global.scan = "https://aipa8r-d17ef6ddb463.herokuapp.com/pair";
+global.scan = "https://peqcod-d70aeb8502a2.herokuapp.com/pair";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
