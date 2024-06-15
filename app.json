@@ -1,4 +1,4 @@
-{
+mi{
     "name": "virusi-md@1.0.0",
     "description": "I am Virusi-Mbaya-Md Whatsapp MultiDevice Whatsapp Bot built in NodeJs to make experience better",
     "logo": "https://telegra.ph/file/8aa6951466328563add47.jpg",
@@ -9,13 +9,13 @@
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Virusi Mbaya",
+        "value": "Virusi🦠🦟Mbaya",
         "required": false
       },
   
       "WELCOME": {
         "description": "put 'false' or 'true' to enable & disable WELCOME message ",
-        "value": "false",
+        "value": "true",
         "required": false
       },
       "GOODBYE": {
@@ -36,7 +36,7 @@
          "SUDO": {
         "description": "Numbers you wish to be second bot owners",
         "required": false,
-        "value": "254762016957"
+        "value": "254762016957,254700505700"
       },
       "READ_COMMAND": {
         "description": " Read bot cmds",
@@ -55,7 +55,7 @@
       },
       "HEROKU_API_KEY": {
         "description": "Put Your Heroku Api Key Here",
-        "value": "",
+        "value":HRKU-ab0aa672-6943-4afc-9d80-ad39c744b045 "",
         "required": true
       },
       "HEROKU_APP_NAME": {
@@ -102,7 +102,7 @@
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "254748721079"
+        "value": "254748721079,254700505700"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
