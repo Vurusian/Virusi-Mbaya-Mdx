@@ -9,13 +9,13 @@ mi{
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Virusi🦠🦟Mbaya",
-        "required": false
-      },
+        "value": "Virusi Mbaya",
+        "required": false },
   
-      "WELCOME": {
+    
+       "WELCOME": {
         "description": "put 'false' or 'true' to enable & disable WELCOME message ",
-        "value": "true",
+        "value": "false",
         "required": false
       },
       "GOODBYE": {
@@ -55,7 +55,7 @@ mi{
       },
       "HEROKU_API_KEY": {
         "description": "Put Your Heroku Api Key Here",
-        "value":HRKU-ab0aa672-6943-4afc-9d80-ad39c744b045 "",
+        "value":"",
         "required": true
       },
       "HEROKU_APP_NAME": {
@@ -102,7 +102,7 @@ mi{
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "254748721079,254700505700"
+        "value": "254748721079,"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
