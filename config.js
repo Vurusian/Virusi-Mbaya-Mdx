@@ -1,3 +1,4 @@
+
 const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
@@ -7,7 +8,7 @@ global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "ngwathegang3@gmai.com";
 global.location = "Kenya";
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://wasitech10:WASImd##12@cluster0.eclhxiz.mongodb.net/?retryWrites=true&w=majority";
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://giftedte:SER3spXjIJSOwrPT@cluster0.ni61idp.mongodb.net/?retryWrites=true&w=majority";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
@@ -33,11 +34,11 @@ global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
-global.save_status_from = process.env.SAVE_STATUS_FROM || "";
+global.save_status_from = process.env.SAVE_STATUS_FROM || "2547xxxx";
 global.read_status_from = process.env.READ_STATUS_FROM || "2547xxxx";
 
 global.api_smd = "https://api-smd.onrender.com";
-global.scan = "https://peqcod-d70aeb8502a2.herokuapp.com/pair";"https://pearni-3db1e9057508.herokuapp.com/",
+global.scan = "https://pearni-3db1e9057508.herokuapp.com";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
