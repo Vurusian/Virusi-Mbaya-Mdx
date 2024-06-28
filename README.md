@@ -31,8 +31,8 @@
 ---
 1.  **Fork, [`CLICK HERE`](https://github.com/Vurusian/Virusi-Mbaya-Md/fork) and `Star ⭐ Repository` for Courage.**
 2.  **Get `SESSION ID` BY [`PAIRING CODE`](https://peqcod-d70aeb8502a2.herokuapp.com/pair)**
-3.**Get 'SESSION ID' BY SCANNING .[QR CODE']_(https://pearni-3db1e9057508.herokuapp.com/)**
-4.  **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md)**
+3.**Get 'SESSION ID' BY SCANNING .['QR CODE']_('https://pearni-3db1e9057508.herokuapp.com/')**
+   4. **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md)**
 ##
 ---
 
