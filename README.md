@@ -30,8 +30,8 @@
 ## 🦠Virusi-Mbaya-Md Deployment Methods
 ---
 1.  **Fork, [`CLICK HERE`](https://github.com/Vurusian/Virusi-Mbaya-Md/fork) and `Star ⭐ Repository` for Courage.**
-2.  **Get `SESSION ID` BY [`PAIRING CODE`](https://peqcod-d70aeb8502a2.herokuapp.com/pair)**
-3.**Get 'SESSION ID' BY SCANNING .['QR CODE']_('https://pearni-3db1e9057508.herokuapp.com/')**
+2.  **Get `SESSION ID` BY    [`PAIRING CODE`](https://peqcod-d70aeb8502a2.herokuapp.com/pair)
+OR BY [`SCANNING QR`](https://pearni-3db1e9057508.herokuapp.com)**
     
    4. **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md)**
 ##
@@ -41,7 +41,7 @@
 - Star ⭐ repo if you like this bot.
 - If any problem, then [`Whatsapp Me Here`](https://wa.me/254748721079)
   
-Join Whatsapp Group -(https://chat.whatsapp.com/Gkaa5BXfTc95a5DqeRjlmm)-
+Join [`Whatsapp Group`](https://chat.whatsapp.com/Gkaa5BXfTc95a5DqeRjlmm)
 _____________________
 ### Credits to:
 - [Bro Gifted](https://github.com/mouricedevs)
