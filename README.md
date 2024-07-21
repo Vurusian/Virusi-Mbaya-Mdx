@@ -1,4 +1,4 @@
-<h1 align="center"> 🦠VIRUSI-MBAYA-MD VERSION 1.0.0  </h1>
+an<h1 align="center"> 🦠VIRUSI-MBAYA-MD VERSION 1.0.0  </h1>
 <p align="center">  
 
 ***
@@ -31,7 +31,7 @@
 ---
 1.  **Fork, [`CLICK HERE`](https://github.com/Vurusian/Virusi-Mbaya-Md/fork) and `Star ⭐ Repository` for Courage.**
 2.  **Get `SESSION ID` BY    [`PAIRING CODE`](https://virusipairingcode-c0624ee50955.herokuapp.com/pair)
-OR BY [`SCANNING QR`](https://pearni-3db1e9057508.herokuapp.com)**
+OR BY [`SCANNING QR`](https://virusi-qr-code.onrender.com)**
     
    4. **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md)**
 ##
