@@ -1,6 +1,6 @@
 {
     "name": "virusi-md@1.0.0",
-    "description": "I am Virusi-Mbaya-Md-V2 Whatsapp MultiDevice Whatsapp Bot built in NodeJs to make experience better",
+    "description": "I am Virusi-Mbaya-Md Whatsapp MultiDevice Whatsapp Bot built in NodeJs to make experience better",
     "logo": "https://telegra.ph/file/8aa6951466328563add47.jpg",
     "keywords": ["virusi-md", "vurusian", "Virusi-Md"],
     "success_url": "/"
@@ -9,7 +9,7 @@
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Virus Mbaya",
+        "value": "Virusi Mbaya",
         "required": false },
   
     
@@ -46,7 +46,7 @@
       "WARN_COUNT": {
         "description": " Warn count for users to kick/block when warn limit exceed!",
         "required": false,
-        "value": "3"
+        "value": "5"
       },
       "AUTO_SAVE_STATUS": {
         "description": " Auto save whatsapp status",
@@ -66,7 +66,7 @@
       "WAPRESENCE": {
         "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
         "required": false,
-        "value": "recording"
+        "value": "available"
       },
       "AUTO_READ_STATUS": {
         "description": "Fill the value true if you want bot view your Statuses.",
@@ -76,7 +76,7 @@
       "MSGS_IN_LOG": {
         "description": "Fill the value -true- if you want to see Messages in logs.",
         "required": false,
-        "value": "false"
+        "value": "true"
       },
       "READ_MESSAGE": {
         "description": "Fill the value true if you want bot to read all messages.",
