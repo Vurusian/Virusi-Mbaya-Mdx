@@ -10,19 +10,19 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/Vurusian/Virusi-Mbaya-Md"><b>Deploy 🦠Virusi Mbaya Md-V2</b></a> On...
+  <a href="https://github.com/Vurusian/Virusi-Mbaya-Md"><b>Deploy 🦠Virusi Mbaya Md</b></a> On...
 </p>
 
 <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md-V2"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md-"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
 
-<p align="center">Need help? please create an <a href="https://github.com/Vurusian/Virusi-Mbaya-Md-V2/issues">issue</a></p>
+<p align="center">Need help? please create an <a href="https://github.com/Vurusian/Virusi-Mbaya-Md-/issues">issue</a></p>
 
 ---
 
  <h3>🦠Virusi-Mbaya-Md-V2 Stats</h3>
 
-![Virusi Stats](https://github-readme-stats.vercel.app/api/pin/?username=Vurusian&repo=Virusi-Mbaya-Md-V2&show_owner=true&theme=dark)
+![Virusi Stats](https://github-readme-stats.vercel.app/api/pin/?username=Vurusian&repo=Virusi-Mbaya-Md-&show_owner=true&theme=dark)
 
 
     
@@ -33,7 +33,7 @@
 2.  **Get `SESSION ID` BY    [`PAIRING CODE`](https://virusi-pair-code.onrender.com/pair)
 OR BY [`SCANNING QR`](https://virusi-qr-code.onrender.com)**
     
-   4. **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md-V2)**
+   4. **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md-)**
 ##
 ---
 
