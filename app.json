@@ -1,9 +1,9 @@
 {
-    "name": "virusi-md-v2@2.0.0",
+    "name": "virusi-md@2.0.0",
     "description": "I am Virusi-Mbaya-Md-V2 Whatsapp MultiDevice Whatsapp Bot built in NodeJs to make experience better",
     "logo": "https://telegra.ph/file/8aa6951466328563add47.jpg",
-    "keywords": ["virusi-md-v2", "vurusian", "Virusi-Md-v2"],
-    "success_url": "/",
+    "keywords": ["virusi-md", "vurusian", "Virusi-Md"],
+    "success_url": "/"
     "stack": "container",
   
     "env": {
