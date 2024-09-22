@@ -1,5 +1,5 @@
 {
-   "name": "virusi-md-v2",
+   "name": "virusi-md",
    "version": "2..0",
    "description": "Multi device whatsapp bot by Virusian.",
    "main": "virusi.js",
@@ -9,8 +9,8 @@
       "asta": "pm2 start . --deep-monitoring --attach --name Virusi || node .",
       "start": "pm2 start . --attach --name Virusi",
       "stop": "pm2 stop Virusi",
-      "heroku-postbuild": "git clone https://github.com/Vurusian/Virusi-Mbaya-Md-V2.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/Vurusian/Virusi-Mbaya-Md-V2.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "heroku-postbuild": "git clone https://github.com/Vurusian/Virusi-Mbaya-Md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/Vurusian/Virusi-Mbaya-Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
    "author": "Virusian",
@@ -75,12 +75,12 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/Vurusian/Virusi-Mbaya-Md-V2p.git"
+      "url": "git+https://github.com/Vurusian/Virusi-Mbaya-Md.git"
    },
    "bugs": {
-      "url": "https://github.com/Vurusian/Virusi-Mbaya-Md-V2/issues"
+      "url": "https://github.com/Vurusian/Virusi-Mbaya-Md/issues"
    },
-   "homepage": "https://github.com/Vurusian/Virusi-Mbaya-Md-V2#readme"
+   "homepage": "https://github.com/Vurusian/Virusi-Mbaya-Md#readme"
 }
 
 
