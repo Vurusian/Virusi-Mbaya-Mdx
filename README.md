@@ -1,4 +1,4 @@
-an<h1 align="center"> 🦠VIRUSI-MBAYA-MD VERSION 2.0.0  </h1>
+<h1 align="center"> 🦠VIRUSI-MBAYA-MD VERSION 2.0.0  </h1>
 <p align="center">  
 
 ***
@@ -10,7 +10,7 @@ an<h1 align="center"> 🦠VIRUSI-MBAYA-MD VERSION 2.0.0  </h1>
 ---
 
 <p align="center">
-  <a href="https://github.com/Vurusian/Virusi-Mbaya-Md"><b>Deploy 🦠Virusi Mbaya Md</b></a> On...
+  <a href="https://github.com/Vurusian/Virusi-Mbaya-Md"><b>Deploy 🦠Virusi Mbaya Md-V2</b></a> On...
 </p>
 
 <p align="center">
