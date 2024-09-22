@@ -1,6 +1,6 @@
 /*
 
-VIRUSI-MBAYA-MD
+VIRUSI-MBAYA-MD-V2
 
 */
 
@@ -10,6 +10,6 @@ const _0x1fa6fe=_0x51fb;(function(_0x4d2c76,_0x26ba5a){const _0x4b5b98=_0x51fb,_
 
 /*
 
-VIRUSI-MBAYA-MD
+VIRUSI-MBAYA-MD-V2
 
 */
