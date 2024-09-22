@@ -22,7 +22,7 @@
 
  <h3>🦠Virusi-Mbaya-Md Stats</h3>
 
-![Virusi Stats](https://github-readme-stats.vercel.app/api/pin/?username=Vurusian&repo=Virusi-Mbaya-Md &show_owner=true&theme=dark)
+![Virusi Stats](https://github-readme-stats.vercel.app/api/pin/?username=Vurusian&repo=Virusi-Mbaya-Md-&show_owner=true&theme=dark)
 
 
     
