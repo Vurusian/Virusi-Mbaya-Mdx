@@ -1,5 +1,5 @@
 {
-    "name": "virusi-md@2.0.0",
+    "name": "virusi-md@1.0.0",
     "description": "I am Virusi-Mbaya-Md-V2 Whatsapp MultiDevice Whatsapp Bot built in NodeJs to make experience better",
     "logo": "https://telegra.ph/file/8aa6951466328563add47.jpg",
     "keywords": ["virusi-md", "vurusian", "Virusi-Md"],
@@ -26,12 +26,12 @@
       "BOT_NAME": {
         "description": "Your Bot Name",
         "required": false,
-        "value": "𝗩𝗜𝗥𝗨𝗦𝗜-𝗠𝗕𝗔𝗬𝗔-𝗠𝗗-V2"
+        "value": "𝗩𝗜𝗥𝗨𝗦𝗜-𝗠𝗕𝗔𝗬𝗔-𝗠𝗗"
       },
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
         "required": false,
-        "value": "Africa/Arusha"
+        "value": "Africa/Nairobi"
       },
          "SUDO": {
         "description": "Numbers you wish to be second bot owners",
@@ -119,7 +119,7 @@
       },
       "PACK_AUTHER": {
         "description": "Put Sticker Author_Name.",
-        "value": "Virusi-Md-V2",
+        "value": "Virusi-Md",
         "required": false
       }
     },
