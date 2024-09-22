@@ -1,6 +1,6 @@
 /*
 
-VIRUSI-MBAYA-MD
+VIRUSI-MBAYA-MD-V2
 
 */
 
@@ -8,6 +8,6 @@ function _0x440f(_0x3526af,_0x4a7129){const _0x3c77df=_0x3c77();return _0x440f=f
 
 /*
 
-VIRUSI-MBAYA-MD
+VIRUSI-MBAYA-MD-V2
 
 */
