@@ -1,6 +1,6 @@
 {
    "name": "virusi-md",
-   "version": "2..0",
+   "version": "1..0",
    "description": "Multi device whatsapp bot by Virusian.",
    "main": "virusi.js",
    "type": "commonjs",
