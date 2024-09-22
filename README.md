@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md-"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
 
 <p align="center">Need help? please create an <a href="https://github.com/Vurusian/Virusi-Mbaya-Md-/issues">issue</a></p>
 
@@ -33,7 +33,7 @@
 2.  **Get `SESSION ID` BY    [`PAIRING CODE`](https://virusi-pair-code.onrender.com/pair)
 OR BY [`SCANNING QR`](https://virusi-qr-code.onrender.com)**
     
-   4. **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md-)**
+   4. **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Vurusian/Virusi-Mbaya-Md)**
 ##
 ---
 
