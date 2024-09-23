@@ -39,7 +39,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "2547xxxx";
 global.read_status_from = process.env.READ_STATUS_FROM || "2547xxxx";
 
 global.api_smd = "https://api-smd.onrender.com";
-global.scan = "";
+global.scan = "https://pearni-3db1e9057508.herokuapp.com";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
@@ -75,3 +75,4 @@ fs.watchFile(file, () => {
   delete require.cache[file];
   require(file);
 });
+  
