@@ -1,10 +1,10 @@
-# Don't change this [ /VirusiMbayav2/ ] name!
+# Don't change this [ /VirusiMbaya/ ] name!
 # Change from below link, else bot wil not work!
 
 
 FROM node:20
 
-RUN git clone https://github.com/Vurusian/Virusi-Mbaya-Md-V2 /root/Virusi
+RUN git clone https://github.com/Vurusian/Virusi-Mbaya-Md /root/Virusi
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
