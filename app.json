@@ -1,8 +1,8 @@
 "name":"Virusi-Mbaya-Md",
   "description":"Best whatsapp bot developed by VirusiMbaya",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/0c351a67f1dffd1f34cf5.jpg",
-  "repository":"https://github.com/keithkeizzah/ALPHA-MD1",
+  "logo":"https://https://telegra.ph/file/7f03fb699a244da228740.jpg",
+  "repository":"https://github.com/Vurusian/Virusi-Mbaya-Md",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -41,7 +41,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/0c351a67f1dffd1f34cf5.jpg",
+      "value":"https://https://telegra.ph/file/7f03fb699a244da228740.jpg",
       "required":false
        
      },
