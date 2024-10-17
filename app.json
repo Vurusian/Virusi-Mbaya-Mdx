@@ -1,133 +1,133 @@
-"name":"Virusi-Mbaya-Md",
-  "description":"Best whatsapp bot developed by VirusiMbaya",
-  "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://https://telegra.ph/file/7f03fb699a244da228740.jpg",
-  "repository":"https://github.com/Vurusian/Virusi-Mbaya-Md",
-  "succes_url":"/",
-  "stack":"container",
-  "env":{
-    "PREFIX":
-    {
-      "description":"choose your prefix of bot",
-      "value":".",
-      "required":true
-    },
-    "AUTO_READ_STATUS":
-    {
-      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"yes",
-      "required":false
-    }, "AUTO_DOWNLOAD_STATUS":
-    {
-      "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
-      "required":false
-    }
-    ,
-     "PM_PERMIT" :
-     {
-      "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
-      "required":false
-    }
-    ,
-    "BOT_NAME" : {
-       
-      "description":"put A name for your bot",
-      "value":"VIRUSI-MBAYA-MD",
-      "required":false
-
-    } ,
-     "BOT_MENU_LINKS" : {
-    
-      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://https://telegra.ph/file/7f03fb699a244da228740.jpg",
-      "required":false
-       
-     },
-    "PUBLIC_MODE":
-    {
-      "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"no",
-      "required":false
-    }
-	,
-    "HEROKU_API_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
-     "required" :false
-    },
-  "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (this is optionnal)",
-     "required" :false
-    }  
-	  ,
-    "SESSION_ID":
-    {
-      "description":"put your session ID , the code you receive after scanning Qr code",   
-      "value":"",
-      "required":true
-      
-    },
-    "OWNER_NAME":
-    {
-    
-    "desc": "Your Name",
-    "required": false,
-    "value": "Virusi 🦠 Mbaya"
-  },
-    "NUMERO_OWNER":
-  {
-    
-    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-    "required":false,
-    "value": "254748721079"
-  },
-    "WARN_COUNT":
-  {
-    "desc": "this is the limit of warn for warning commandes",
-    "required": false,
-    "value": "3"
-  },
-  "STARTING_BOT_MESSAGE":
-  {
-    "description": "if you don't want startting-bot-message put no else put yes",
-    "required": true,
-    "value": "yes"
-  },
-  "PRESENCE":{
-    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
-    "required": false
-  },
-  "ANTI_DELETE_MESSAGE" : {
-    "description": "if you want to enable anti delete message put yes else put no",
-    "value": "yes",
-        "required": false
-  }
-  },
-
-    "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "standard-2x"
-    }
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql:essential-0"
-    }
-  ]
+test" }
+    ]
+      }
+	          "name": "virusi-md@1.0.0",
+    "description": "I am Virusi-Mbaya-Md Whatsapp MultiDevice Whatsapp Bot built in NodeJs to make experience better",
+    "logo": "https://telegra.ph/file/8aa6951466328563add47.jpg",
+    "keywords": ["virusi-md", "vurusian", "Virusi-Md"],
+    "success_url": "/",
+    "stack": "container",
   
-
+    "env": {
+      "OWNER_NAME": {
+        "description": "Name for Bot Owner",
+        "value": "Virusi Mbaya",
+        "required": false },
+  
+    
+       "WELCOME": {
+        "description": "put 'false' or 'true' to enable & disable WELCOME message ",
+        "value": "false",
+        "required": false
+      },
+      "GOODBYE": {
+        "description": "put 'false' or 'true' to enable & disable GOODBYE message ",
+        "value": "false",
+        "required": false
+      },
+      "BOT_NAME": {
+        "description": "Your Bot Name",
+        "required": false,
+        "value": "𝗩𝗜𝗥𝗨𝗦𝗜-𝗠𝗕𝗔𝗬𝗔-𝗠𝗗"
+      },
+      "TZ": {
+        "description": "Put TIME_ZONE according to your location",
+        "required": false,
+        "value": "Africa/Nairobi"
+      },
+         "SUDO": {
+        "description": "Numbers you wish to be second bot owners",
+        "required": false,
+        "value": "254748721079,254700505700"
+      },
+      "READ_COMMAND": {
+        "description": " Read bot cmds",
+        "required": false,
+        "value": "true"
+      },
+      "WARN_COUNT": {
+        "description": " Warn count for users to kick/block when warn limit exceed!",
+        "required": false,
+        "value": "5"
+      },
+      "AUTO_SAVE_STATUS": {
+        "description": " Auto save whatsapp status",
+        "required": false,
+        "value": "false"
+      },
+      "HEROKU_API_KEY": {
+        "description": "Put Your Heroku Api Key Here",
+        "value":"",
+        "required": true
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Put Your Heroku App Name Here",
+        "value": "",
+        "required": true
+      },
+      "WAPRESENCE": {
+        "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
+        "required": false,
+        "value": "recording"
+      },
+      "AUTO_READ_STATUS": {
+        "description": "Fill the value true if you want bot view your Statuses.",
+        "required": false,
+        "value": "true"
+      },
+      "MSGS_IN_LOG": {
+        "description": "Fill the value -true- if you want to see Messages in logs.",
+        "required": false,
+        "value": "false"
+      },
+      "READ_MESSAGE": {
+        "description": "Fill the value true if you want bot to read all messages.",
+        "required": false,
+        "value": "false"
+      },
+      "DISABLE_PM": {
+        "description": "Make it 'false' if you wanna run bot in your pm (if MODE is Public)",
+        "value": "true",
+        "required": false
+      },
+      "PREFIX": {
+        "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
+        "value": "."
+      },
+       "USER_IMAGES": {
+        "description": "User Images",
+        "value": "https://telegra.ph/file/8aa6951466328563add47.jpg"
+      },
+      "THUMB_IMAGE": {
+      "description": "Menu Image",
+      "value": "https://telegra.ph/file/8aa6951466328563add47.jpg"
+      },
+      "OWNER_NUMBER": {
+        "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+        "value": "254748721079,254700505700"
+      },
+      "SESSION_ID": {
+        "description": "put your SESSION_ID here.",
+        "value": ""
+      },
+      "MODE": {
+        "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
+        "value": "private"
+      },
+      "PACK_NAME": {
+        "description": "Put Sticker Pack_Name.",
+        "value": "♥️",
+        "required": false
+      },
+      "PACK_AUTHER": {
+        "description": "Put Sticker Author_Name.",
+        "value": "Virusi-Md",
+        "required": false
+      }
+    },
+    "addons": [{ "plan": "heroku-postgresql:essential-1" }],
+    "buildpacks": [
+      { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
+      { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
+    ]
+      }
